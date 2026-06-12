@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite';
+import { resolve } from 'path';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
@@ -8,5 +9,11 @@ export default defineConfig({
   base: 'f-project',
   build: {
     outDir: 'docs',
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        contact: resolve(__dirname, '/pages/contact/index.html'),
+      },
+    },
   },
 });
