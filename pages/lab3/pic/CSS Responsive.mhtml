@@ -1,0 +1,68 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:5500/index.html#
+Subject: CSS Responsive
+Date: Wed, 10 Jun 2026 13:50:00 +0700
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--3bJR3QaFCmiFtQv3qUBILLVqfRaaYoqSDilSPcrMHu----"
+
+
+------MultipartBoundary--3bJR3QaFCmiFtQv3qUBILLVqfRaaYoqSDilSPcrMHu----
+Content-Type: text/html
+Content-ID: <frame-E5ACE11FEC244A6C528EB84A1D051813@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/index.html#
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+   =20
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+   =20
+    <title>CSS Responsive</title>
+<link rel=3D"stylesheet" href=3D"http://127.0.0.1:5500/css/styles.css?_cach=
+eOverride=3D1781074196155"></head>
+
+<body>
+    <h1>CSS Responsive : Navbar</h1>
+    <hr>
+    <header>
+        <div class=3D"logo">
+            CC23
+        </div>
+        <nav>
+            <a href=3D"http://127.0.0.1:5500/index.html#">Home</a>
+            <a href=3D"http://127.0.0.1:5500/index.html#">About</a>
+            <a href=3D"http://127.0.0.1:5500/index.html#">Product</a>
+            <a href=3D"http://127.0.0.1:5500/index.html#">Contact</a>
+        </nav>
+    </header>
+<!-- Code injected by live-server -->
+
+
+
+</body></html>
+------MultipartBoundary--3bJR3QaFCmiFtQv3qUBILLVqfRaaYoqSDilSPcrMHu----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/css/styles.css?_cacheOverride=1781074196155
+
+@charset "utf-8";
+
+* { box-sizing: border-box; margin: 0px; padding: 0px; }
+
+html { font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+header { height: 70px; background-color: teal; display: flex; justify-conte=
+nt: space-between; align-items: end; }
+
+a { text-decoration: none; color: orange; padding: 8px 8px 0px; }
+
+a:hover { outline: rgb(255, 227, 227) solid 2px; }
+
+.logo { font-size: 36px; color: orange; }
+
+@media (max-width: 1000px) {
+}
+------MultipartBoundary--3bJR3QaFCmiFtQv3qUBILLVqfRaaYoqSDilSPcrMHu------
