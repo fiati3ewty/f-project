@@ -6,4 +6,7 @@ export default defineConfig({
     tailwindcss(), // ใส่ปลั๊กอินตัวนี้เข้าไป
   ],
   base: 'f-project',
+  build: {
+    outDir: 'docs',
+  },
 });
