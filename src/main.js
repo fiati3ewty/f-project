@@ -6,8 +6,10 @@ import { setupCounter } from './counter.js';
 
 document.querySelector('#app').innerHTML = `
 <section id="center">
-<a href="./pages/contact" class="text-gray-600 mr-2.5">Contact F!@T</a>
-<a href="./pages/lab3" class="text-gray-600">Lab 3</a>
+<div class="flex-row">
+  <a href="/contact" class="text-gray-600 mr-2.5">Contact F!@T</a>
+  <a href="/lab3" class="text-gray-600">Lab 3</a>
+</div>
   <div class="hero">
     <img src="${heroImg}" class="base" width="170" height="179">
     <img src="${javascriptLogo}" class="framework" alt="JavaScript logo"/>
