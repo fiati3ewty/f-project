@@ -2,7 +2,7 @@
 <section id="center">
 <div class="flex-row">
   <a href="/f-project/contact" class="text-gray-600 mr-2.5">Contact F!@T</a>
-  <a href="/f-project/lab3" class="text-gray-600">Lab 3</a>
+  <a href="/f-project/lab3+" class="text-gray-600">Lab 3</a>
 </div>
   <div class="hero">
     <img src="${n}" class="base" width="170" height="179">
