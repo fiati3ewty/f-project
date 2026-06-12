@@ -5,4 +5,5 @@ export default defineConfig({
   plugins: [
     tailwindcss(), // ใส่ปลั๊กอินตัวนี้เข้าไป
   ],
+  base: 'f-project',
 });
